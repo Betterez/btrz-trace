@@ -1,0 +1,35 @@
+{
+  "author": "Betterez Canada Inc. <it@betterez.com>",
+  "name": "btrz-trace",
+  "description": "Generate trace data for changes on Betterez",
+  "version": "0.0.1",
+  "private": "true",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Betterez/btrz-trace.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --ui bdd",
+    "test-w": "node_modules/mocha/bin/mocha --ui bdd -w"
+  },  
+  "dependencies": {
+    "btrz-modules": "git+ssh://git@github.com:Betterez/btrz-modules.git#v2.1.3"    
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "chance": "^1.0.4",
+    "mocha": "latest",
+    "eslint": "^2.0.0",
+    "eslint-config-airbnb": "^7.0.0",
+    "eslint-config-standard": "^5.1.0",
+    "eslint-friendly-formatter": "^1.2.2",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-html": "^1.3.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-mocha": "^2.2.0",
+    "eslint-plugin-promise": "^1.0.8",
+    "eslint-plugin-react": "^4.3.0",
+    "eslint-plugin-standard": "^1.3.2"
+  }
+}
